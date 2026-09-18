@@ -4,7 +4,7 @@ Welcome to your **Local Biomedical AI Agent System**! This guide explains how to
 
 ---
 
-## 🚀 1. How to Launch the Interactive Chat
+##  1. How to Launch the Interactive Chat
 
 ### Option A: If using WSL / Linux Bash Terminal (e.g. `root@Steffi`)
 Run these 2 commands in your terminal:
@@ -22,7 +22,7 @@ py -3 chat.py
 
 ---
 
-## 💬 2. How to Ask Questions
+##  2. How to Ask Questions
 
 Once `chat.py` starts, you will see a prompt like this:
 ```text
@@ -51,7 +51,7 @@ You can type any natural-language question about **genes, diseases, drugs, side 
 
 ---
 
-## 📊 3. Simple Guide to Interpreting the Agent's Output
+##  3. Simple Guide to Interpreting the Agent's Output
 
 When you ask a question, the AI Agent will respond with a structured summary table like this:
 
@@ -78,7 +78,7 @@ When you ask a question, the AI Agent will respond with a structured summary tab
 
 ---
 
-## ⚙️ 4. Quick Architecture Reference
+##  4. Quick Architecture Reference
 
 - **100% Local & Offline**: All data is stored locally on your hard drive (`data/processed/biomedical.db`).
 - **Low Disk Footprint**: Optimized to use **under 3.6 GB total storage**.
