@@ -13,7 +13,6 @@
 ## Key Features
 
 - **Professional Web Dashboard & Analytics UI (`app.py`)**: Presentation-ready dark theme interface featuring dynamic KPI stat cards, interactive query execution, visual relationship triples, analytical data charts, and 1-click CSV exports.
-- **Zero Emojis**: Clean, formal scientific presentation suitable for demonstrations to research mentors and biomedical informatics teams.
 - **100% Local & Offline Execution**: Zero cloud API fees, no AWS credentials required. Runs entirely on local Python and local relational databases (SQLite / MySQL).
 - **Space-Optimized Storage**: Stores **over 150,000 biomedical relationships in under 3.7 GB total disk space**.
 - **Multi-Agent Architecture**: Inspired by AWS's Cancer Biomarker Discovery design pattern, refactored with 0% cloud dependencies:
