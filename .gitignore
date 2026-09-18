@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Large raw datasets and local binary database files
+data/raw/
+data/processed/*.db
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
