@@ -10,6 +10,28 @@
 
 ---
 
+## Implementation Examples & Dashboard Screenshots
+
+The application provides a presentation-ready biomedical analytics interface displaying live database metrics, multi-agent AI answers, visual relationship triples, dynamic charts, and CSV data exports:
+
+### 1. Dashboard Overview & Knowledge Graph Statistics
+![Dashboard Overview](reports/assets/01_dashboard_overview.png)
+> **Description**: The main landing page showing verified live status badges (`System Online`, `Local / Offline`, `Database Connected`) and real KPI stat cards queried live from the local relational database (**35,982 Biomedical Entities**, **65 Genes**, **4,770 Diseases**, **1,430 Drugs**, **23,603 Pathways**, **6,114 Phenotypes**, and **150,000 Knowledge Graph Edges**).
+
+---
+
+### 2. Knowledge Graph Relationship Triples & Provenance Audit
+![Knowledge Graph Relationships](reports/assets/02_relationship_triples.png)
+> **Description**: Demonstrates multi-agent relationship extraction for a user query (*"What genes are associated with Alzheimer disease?"*), displaying visual triple cards (`Source Entity -> Relationship -> Target Entity`), CTD data provenance tracking, and architectural safety audit metadata.
+
+---
+
+### 3. Data Visualizations, Dataframe Table & CSV Export
+![Data Visualization & Dataframe](reports/assets/03_visualization_dataframe.png)
+> **Description**: Shows the dynamic analytics view, bar charts of record distributions by data source and relationship type generated strictly from retrieved backend rows, an interactive Streamlit dataframe table, and a 1-click **Download Results as CSV** button.
+
+---
+
 ## Key Features
 
 - **Professional Web Dashboard & Analytics UI (`app.py`)**: Presentation-ready dark theme interface featuring dynamic KPI stat cards, interactive query execution, visual relationship triples, analytical data charts, and 1-click CSV exports.
@@ -108,6 +130,10 @@ local-biomedical-multiagent-primekg/
 │   └── tools/
 │       └── db_tool.py        # Safe read-only database query tool with stats API
 ├── reports/
+│   ├── assets/               # Implementation UI screenshots
+│   │   ├── 01_dashboard_overview.png
+│   │   ├── 02_relationship_triples.png
+│   │   └── 03_visualization_dataframe.png
 │   ├── data_inventory.md     # Downloaded dataset metrics report
 │   ├── biomarker_scripts_analysis.md # AWS code analysis & local mapping
 │   ├── mysql_schema_proposal.md     # Relational database schema design DDL
