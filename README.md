@@ -20,14 +20,20 @@ The application provides a presentation-ready biomedical analytics interface dis
 
 ---
 
-### 2. Knowledge Graph Relationship Triples & Provenance Audit
-![Knowledge Graph Relationships](reports/assets/02_relationship_triples.png)
-> **Description**: Demonstrates multi-agent relationship extraction for a user query (*"What genes are associated with Alzheimer disease?"*), displaying visual triple cards (`Source Entity -> Relationship -> Target Entity`), CTD data provenance tracking, and architectural safety audit metadata.
+### 2. Analytical Results & Multi-Agent Execution Summary
+![Analytical Results & Evidence](reports/assets/02_analytical_results.png)
+> **Description**: Displays the analytical response view for a user query (*"What genes are associated with Alzheimer disease?"*), highlighting execution status metrics (**20 Records Returned**, **CTD Data Provenance**, **SUCCESS Status**, **SQLite / MySQL Engine**), the executed backend SQL query, and structured biomarker evidence tables.
 
 ---
 
-### 3. Data Visualizations, Dataframe Table & CSV Export
-![Data Visualization & Dataframe](reports/assets/03_visualization_dataframe.png)
+### 3. Knowledge Graph Relationship Triples & Provenance Audit
+![Knowledge Graph Relationships](reports/assets/03_relationship_triples.png)
+> **Description**: Demonstrates multi-agent relationship extraction displaying visual triple cards (`Source Entity -> Relationship -> Target Entity`), CTD data provenance tracking, and architectural safety audit metadata.
+
+---
+
+### 4. Data Visualizations, Dataframe Table & CSV Export
+![Data Visualization & Dataframe](reports/assets/04_visualization_dataframe.png)
 > **Description**: Shows the dynamic analytics view, bar charts of record distributions by data source and relationship type generated strictly from retrieved backend rows, an interactive Streamlit dataframe table, and a 1-click **Download Results as CSV** button.
 
 ---
@@ -132,8 +138,9 @@ local-biomedical-multiagent-primekg/
 ├── reports/
 │   ├── assets/               # Implementation UI screenshots
 │   │   ├── 01_dashboard_overview.png
-│   │   ├── 02_relationship_triples.png
-│   │   └── 03_visualization_dataframe.png
+│   │   ├── 02_analytical_results.png
+│   │   ├── 03_relationship_triples.png
+│   │   └── 04_visualization_dataframe.png
 │   ├── data_inventory.md     # Downloaded dataset metrics report
 │   ├── biomarker_scripts_analysis.md # AWS code analysis & local mapping
 │   ├── mysql_schema_proposal.md     # Relational database schema design DDL
